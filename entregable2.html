@@ -1,0 +1,36 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Página Web</title>
+    <link rel="stylesheet" href="entregable2.css">
+</head>
+<body>
+    <div id="contenedor">
+        <form action="" name="form2">
+        <h1>CUESTIONARIO</h1>
+        <label for="">Cliente:</label>
+        <input type="text" id="cliente"><br>
+        <label for="">Destino:</label>
+        <select id="destino">
+            <option value="120">Pucallpa</option>
+            <option value="130">Arequipa</option>
+            <option value="100">Trujillo</option>
+            <option value="150">Cuzco</option>
+            <option value="90">Chimbote</option>
+            <option value="80">Ancash</option>
+        </select><br><br>
+        <label>Tipo de Pago:</label><br>
+        <div id="dinero">
+        <input type="radio" id="tarjeta" name="pago">
+        <label for="tajeta">Tarjeta de credito</label>
+        <input type="radio" id="efectivo" name="pago">
+        <label for="efectivo">Efectivo</label>
+        </div>
+        <input id="respuesta" type="button" value="Mostrar" onclick="llenardatos()"><br>
+        <label for="">Respuesta:</label>
+        <textarea id="comentario" name="comentario" rows="4" cols="48"></textarea>
+        </form>
+        <script src="entreegable2.js"></script>
+</body>
+</html>

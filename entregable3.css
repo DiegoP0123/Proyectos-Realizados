@@ -1,0 +1,93 @@
+body{
+    background-color:beige;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family:fantasy;
+    margin: auto;
+    color: azure;
+    margin-top: 5px;
+}
+h3 {
+    text-align: center;
+    margin-top: 3px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#cuerpo2{
+    margin-left: 150px;
+    padding: 10px;
+}
+header{
+    background-image: url('imagenes/enca.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15%;
+    width: 100%; 
+    position:absolute; 
+    top: 0; 
+    left: 0; 
+}
+main{
+    margin-top: 300px;
+}
+#img{
+    width: 30em;
+    position:static;
+    margin-left: 680px;
+    margin-top: -120px;
+    border: 2px solid color #000;
+    border-radius: 12px;
+}
+#titulos2{
+    margin-top: -310px;
+    margin-left: 200px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    
+}
+#sub{
+    margin-top:-23px;
+    margin-left: 260px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+#intro{
+    margin-left: 40px;
+    padding: 10px;
+    margin-right: 590px;
+    text-align: justify;
+    font-size: 19px;
+}
+h2{
+    margin-left: 13em;
+}
+#pres{
+    margin-right: 10em;
+    text-align: justify;
+}
+.boton {
+    background-color: #ffa500; 
+    color: #fff; 
+    padding: 20px 20px; 
+    margin: 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+.boton:hover {
+    background-color: #ff6600; 
+}
+.imagen-boton{
+    margin-left: 3px; /* Espacio a la izquierda de la imagen */
+    width: 200px; /* Ancho de la imagen */
+    height: 200px; /* Altura de la imagen */
+    border: 1px solid #ccc; /* Borde alrededor de la imagen */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de la imagen */
+    border-radius: 10px;
+}
+
+
+

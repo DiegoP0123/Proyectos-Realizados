@@ -1,0 +1,61 @@
+#contenedor {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    margin-top: 150px;
+    
+}
+h1{
+    text-align: center;
+}
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+input[type="text"] {
+    width: 80%;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+#respuesta {
+    
+    width: 385px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2%;
+}
+#destino{
+    background-color: snow;
+    margin: 2%;
+    border-radius: 20px;
+    color: #007bff;
+    border-color: blueviolet;
+}
+#dinero{
+    margin:5%;
+    text-align: center;
+}
+#efectivo{
+    margin-left: 5%;
+}
+#comentario{
+    margin:9px;
+    padding: 10px;
+    border-radius: 4px;
+    pointer-events: none;
+}
+body{
+    background-image: url('imagenes/imagen1.jpg');
+    background-size: cover;
+}
